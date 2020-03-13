@@ -1,11 +1,15 @@
 // import react
 import React from "react";
 // write function component ES6
-const Person = (props) => {
-  debugger
+const Person = ({name}, {age}) => {
+  
   return(
-    <div>
-      Name : Sihame
+    <div className="person">
+      
+      
+      Name : {name}
+      
+      Age : {age}
     </div>
   )
 }

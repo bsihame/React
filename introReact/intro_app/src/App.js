@@ -5,7 +5,12 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Person/>
+      <Person name={"Sihame" } age= {100}/>
+      <Person name={"Faris" } age= {12}/>
+
+      <Person name={"Bouchaib" } age= {51}/>
+
+      
     </div>
   );
 }

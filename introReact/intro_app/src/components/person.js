@@ -2,6 +2,8 @@
 import React from "react";
 // write function component ES6
 const Person = ({name, age}) => {
+  console.log(name, age);
+  
   return(
     <div className="person">
       
